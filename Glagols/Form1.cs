@@ -24,7 +24,7 @@ namespace Glagols
             glagol g = new glagol(textBox1.Text, textBox2.Text,textBox3.Text);
             if (checkBox1.Checked) g.regular = false;
             gs.Add(g);
-            textBox1.Clear();
+          
             textBox2.Clear();
             textBox3.Clear();
         }
